@@ -5,13 +5,7 @@
 CppUnit is the C++ port of the famous JUnit framework for unit
 testing.
 
-For MSWindows installation notes, see INSTALL-WIN32.txt.
-For other systems -- including cygwin -- see INSTALL and INSTALL-unix.
-
-
-Bug reports are welcome. Please open bug reports for Cppunit at
-bugs.documentfoundation.org under the component cppunit.
-
-Email to the current maintainers may be sent to
-<libreoffice@lists.freedesktop.org>
-
+This version has had everything to do with GNU autotools stripped
+from it by Erik Corry.  To use it in your project, add the include
+directory to your include directories and add the cpp files to
+your build system.  I'm afraid I can't be more specific than that.

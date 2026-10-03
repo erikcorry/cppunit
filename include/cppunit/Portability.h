@@ -15,7 +15,10 @@
 #    include <cppunit/config/config-msvc6.h>
 #  endif
 #else
-#    include <cppunit/config-auto.h>
+#define CPPUNIT_HAVE_SSTREAM 1
+#define CPPUNIT_HAVE_CMATH 1
+#define CPPUNIT_HAVE_DLFCN_H 1
+#define CPPUNIT_HAVE_NAMESPACES  1
 #endif
 
 // Version number of package
